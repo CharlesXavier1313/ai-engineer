@@ -17,11 +17,16 @@ AI Engineer is an interactive command-line interface (CLI) that leverages the po
 ## 🛠️ Installation
 
 1. Clone this repository
-2. Install the required dependencies:
+   ```
+   git clone https://github.com/renatocaliari/ai-engineer.git
+   cd ai-engineer
+   ```
+   
+3. Install the required dependencies:
    ```
    pip install -r requirements.txt
    ```
-3. Set up your API keys:
+4. Set up your API keys:
    - Add your Tavily API keys at the start of the file:
      ```python
      import os
