@@ -1,10 +1,10 @@
-# 🤖 Claude Engineer
+# 🤖 AI Engineer
 
-Claude Engineer is an interactive command-line interface (CLI) that leverages the power of Anthropic's Claude-3.5-Sonnet model to assist with software development tasks. This tool combines the capabilities of a large language model with practical file system operations and web search functionality.
+AI Engineer is an interactive command-line interface (CLI) that leverages the power of large language models through LiteLLM to assist with software development tasks. This tool combines the capabilities of advanced language models with practical file system operations and web search functionality.
 
 ## ✨ Features
 
-- 💬 Interactive chat interface with Claude-3.5-Sonnet
+- 💬 Interactive chat interface with support for various language models via LiteLLM
 - 📁 File system operations (create folders, files, read/write files)
 - 🔍 Web search capabilities using Tavily API
 - 🌈 Syntax highlighting for code snippets
@@ -16,33 +16,30 @@ Claude Engineer is an interactive command-line interface (CLI) that leverages th
 
 ## 🛠️ Installation
 
-1. Clone this repository:
-   ```
-   git clone https://github.com/Doriandarko/claude-engineer.git
-   cd claude-engineer
-   ```
-
+1. Clone this repository
 2. Install the required dependencies:
    ```
    pip install -r requirements.txt
    ```
-
 3. Set up your API keys:
-   - Add your Anthropic and Tavily API keys at the start of the file:
+   - Add your Tavily API keys at the start of the file:
      ```python
-     client = Anthropic(api_key="YOUR API KEY")
+     import os
+
+     ## set ENV variables OPENAI_API_KEY, OPENROUTER_API_KEY, ANTHROPIC_API_KEY, HUGGINGFACE_API_KEY... See LiteLLM
+     os.environ["OPENROUTER_API_KEY"] = "openrouter_api_key"
      tavily = TavilyClient(api_key="YOUR API KEY")
      ```
 
 ## 🚀 Usage
 
-Run the main script to start the Claude Engineer interface:
+Run the main script to start the AI Engineer interface:
 
 ```
 python main.py
 ```
 
-Once started, you can interact with Claude Engineer by typing your queries or commands. Some example interactions:
+Once started, you can interact with AI Engineer by typing your queries or commands. Some example interactions:
 
 - "Create a new Python project structure for a web application"
 - "Explain the code in file.py and suggest improvements"
@@ -57,7 +54,7 @@ Special commands:
 
 ### 🤖 Automode
 
-Automode allows Claude to work autonomously on complex tasks. When in automode:
+Automode allows AI Engineer to work autonomously on complex tasks. When in automode:
 
 1. Claude sets clear, achievable goals based on your request.
 2. It works through these goals one by one, using available tools as needed.
@@ -70,7 +67,7 @@ To use automode:
 3. Claude will work autonomously, providing updates after each iteration.
 4. Automode exits when the task is completed or after reaching the maximum number of iterations.
 
-Note: Claude will only have access to the files in the root folders of the script or any folder path you provide it.
+Note: AI Engineer will only have access to the files in the root folders of the script or any folder path you provide it.
 
 ## 👥 Contributing
 
