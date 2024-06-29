@@ -1,4 +1,4 @@
-# 🤖 AI Engineer
+# 🤖 AI Engineer (forked from Doriandarko/claude-engineer)
 
 AI Engineer is an interactive command-line interface (CLI) that leverages the power of large language models through LiteLLM to assist with software development tasks. This tool combines the capabilities of advanced language models with practical file system operations and web search functionality.
 
@@ -69,9 +69,9 @@ To use automode:
 
 Note: AI Engineer will only have access to the files in the root folders of the script or any folder path you provide it.
 
-## 👥 Contributing
+## 👥 Credits
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+original: Doriandarko/claude-engineer
 
 ## 📄 License
 
