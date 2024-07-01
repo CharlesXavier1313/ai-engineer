@@ -337,8 +337,6 @@ def main():
             
             print_colored("Exited automode. Returning to regular chat.", TOOL_COLOR)
         else:
-            print_colored(f">> system prompt: {assistant.system_prompt}")
-            print_colored(f">> user_input: {user_input}")
             response, _ = chat_with_ai(user_input)
             process_and_display_response(response)
 
