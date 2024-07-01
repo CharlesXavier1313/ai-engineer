@@ -1,9 +1,7 @@
 phidata
-qdrant-client
 colorama
 pygments
 Pillow
 python-dotenv
 duckduckgo-search
 beautifulsoup4
-python-dotenv
