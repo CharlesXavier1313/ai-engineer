@@ -7,6 +7,7 @@ AI Engineer is an interactive command-line interface (CLI) that leverages the po
 - 💬 Interactive chat interface with support for various language models via phidata and openrouter
 - 📁 File system operations (create folders, files, read/write files)
 - 🔍 Web search capabilities using DuckDuckGo Tool from phidata
+  - You can use these tools through phidata: Arxiv, Apify, CSV, DuckDb, DuckDuckGo, Email, Exa, File, Newspaper4k, OpenBBTools, Pubmed, Resend, Serpapi, Shell, SQL, Tavily, Wikipedia, Website, YFinance, Youtube, Zendesk.
 - 🌈 Syntax highlighting for code snippets
 - 🏗️ Project structure creation and management
 - 🧐 Code analysis and improvement suggestions
